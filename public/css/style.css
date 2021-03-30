@@ -1,0 +1,210 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../images/bg.jpg");
+    background-size: contain;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    color: white;
+}
+
+header>h1{
+    font-size: 60px;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+header>p{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+/* SECTION 1 - IMAGE/TEXT */
+
+.section1{
+    display:flex;
+    flex-direction: column;
+    margin: 3% 15% 15% 15%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.imgTop>img{
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+.Titre{
+    background-color: white!important;
+
+}
+
+.Titre h2{
+    text-transform: capitalize;
+}
+
+.Titre hr{
+    width: 100px;
+}
+
+.Titre h4{
+    color: grey;
+    font-weight:500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.section1Text {
+    background-color:#F7F6F5;
+    padding: 10%;
+    text-align: justify;
+}
+
+/* Section 2 */
+
+.section2 {
+    display:flex;
+    flex-direction: column;
+    background-color: #1E1F23;
+    margin: 15%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 5%;
+}
+
+.section2Text {
+    background-color: black;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2Text hr {
+    width: 100px;
+}
+
+.section2Text h2{
+    color: white;
+    text-transform: capitalize;
+}
+
+.section2Text h4{
+    color: gray;
+    filter:brightness(1);
+    font-weight:500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* SECTION 2 - rangée 1 et 2*/
+
+.imgRow {
+    display: flex;
+    justify-content: center;
+}
+
+.imgRow img{
+    width: 50%;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    display:flex;
+    flex-direction: column;
+    margin: 15%;
+    /* padding: 10%; */
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+}
+
+.section3Row {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: -1%;
+}
+
+.section3Row div{
+    width: 50%;
+}
+
+.section3Row img {
+    width: 100%;
+}
+
+/* CSS pour la 1ère et la 3ème rangée */
+
+.S3Text{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.S3Text h3{
+    text-transform:capitalize;
+    color: black;
+    width: 50%;
+    padding-left: 20%;
+}
+
+.S3Text p{
+    color: grey;
+    font-size: 80%;
+    width: 60%;
+    padding-left: 20%;
+}
+
+
+/* CSS pour la 2ème rangée */
+
+.S3Text2{
+    background-color: #1E1F23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:right;
+}
+
+.S3Text2 h3{
+    text-transform:capitalize;
+    color: white;
+    padding: 10% 20% 0% 20%;
+}
+
+.S3Text2 p{
+    color: grey;
+    padding: 0% 20% 10% 20%;
+    font-size: 80%;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 5% 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+
+.FA_icons {
+    display:flex;
+    justify-content:space-evenly;
+    width: 10%;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.555);
+}
+
